@@ -2,8 +2,8 @@ var express = require('express');
 var app = express();
 var mongoose = require('mongoose');
 
-var dbusername = "vivian6f2";
-var dbpassword = "55643a09832410";
+var dbusername = "";
+var dbpassword = "";
 
 mongoose.connect("mongodb://"+ dbusername +":"+ dbpassword +"@ds137801.mlab.com:37801/online-judge-system");
 
